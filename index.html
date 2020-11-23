@@ -8,7 +8,43 @@
     <style>
         @charset "UTF-8";
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-        
+        body{
+            background-image: url(imagens/Background\ secundario.jpg);
+            background-size: 100%;
+        }
+        #h2-1{
+            position: absolute;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            color: bisque;
+            margin-left: 20%;
+            margin-top: 55%;
+            font-size: 8vw;
+            width: 60%;
+            height: auto;
+        }
+        #h2-2{
+            position: absolute;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            color: azure;
+            margin-left: 10%;
+            margin-top: 125%;
+            font-size: 8vw;
+            width: 80%;
+            height: auto;
+        }
+        #h3-1{
+            position: absolute;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            color: white;
+            margin-left: 10%;
+            margin-top: 265%;
+            font-size: 8vw;
+            width: 80%;
+            height: auto;
+        }
         #titulo{
             text-align: center;
             font-family: 'Pacifico', cursive;
@@ -20,11 +56,14 @@
             width: 60%;
             height: auto;
         }
+
+
         #zapzap{
             position: fixed;
             top: 90%;
             right: 10px;
             width: 50px;
+            z-index: 1;
         }
         #background>img#back1{
             position: absolute;
@@ -32,36 +71,17 @@
             top: 0px;
             width: 100%;
         }
-        #background2>img#back2{
-            position: absolute;
-            left: 0px;
-            width: 100%;
-            margin-top: 54%;
-            
-        }
-        #background2>img#back3{
-            position: absolute;
-            left: 0px;
-            width: 100%;
-            margin-top: 108%;
-            
-        }
-        #background2>img#back4{
-            position: absolute;
-            left: 0px;
-            width: 100%;
-            margin-top: 164%;
-            
-        }
         #logo>img{
             position: absolute;
             left: 34%;
             width: 30%;
         }
+
+
         #corações-promoção>img{
             position: absolute;
             width: 20%;
-            margin-top: 65%;
+            margin-top: 75%;
         }
         #corações-promoção>img#c1{
             margin-left: 9%;
@@ -72,63 +92,200 @@
         #corações-promoção>img#c3{
             margin-left: 69%;
         }
+
+
         #fraldas>img{
             position: absolute;
             width: 20%;
-            margin-top: 68%;
+            margin-top: 78%;
         }
-        #fralda1{
+        #fraldas>img#fralda1{
             margin-left: 9%;
         }
-        #fralda2{
+        #fraldas>img#fralda2{
             margin-left: 39%;
         }
-        #fralda3{
+        #fraldas>img#fralda3{
             margin-left: 69%;
         }
+        #fraldas1>img{
+            position: absolute;
+            width: 20%;
+            margin-top: 153%;
+        }
+        #fraldas1>img#fralda1{
+            margin-left: 9%;
+        }
+        #fraldas1>img#fralda2{
+            margin-left: 39%;
+        }
+        #fraldas1>img#fralda3{
+            margin-left: 69%;
+        }
+        #fraldas2>img{
+            position: absolute;
+            width: 20%;
+            margin-top: 193%;
+        }
+        #fraldas2>img#fralda1{
+            margin-left: 9%;
+        }
+        #fraldas2>img#fralda2{
+            margin-left: 39%;
+        }
+        #fraldas2>img#fralda3{
+            margin-left: 69%;
+        }
+        #fraldas3>img{
+            position: absolute;
+            width: 20%;
+            margin-top: 233%;
+        }
+        #fraldas3>img#fralda1{
+            margin-left: 9%;
+        }
+        #fraldas3>img#fralda2{
+            margin-left: 39%;
+        }
+        #fraldas3>img#fralda3{
+            margin-left: 69%;
+        }
+
+
         #preços>p{
             position: absolute;
             width: 30%;
-            margin-top: 90%;
+            margin-top: 96%;
             font-family: 'Pacifico', cursive;
             color: khaki;
             font-size: 5vw;
         }
-        #preço1{
+        #preços>p#preço1{
             margin-left: 6%;
         }
-        #preço2{
+        #preços>p#preço2{
             margin-left: 37%;
         }
-        #preço3{
+        #preços>p#preço3{
             margin-left: 68%;
         }
+        #preços1>p{
+            position: absolute;
+            width: 30%;
+            margin-top: 170%;
+            font-family: 'Pacifico', cursive;
+            color: khaki;
+            font-size: 5vw;
+        }
+        #preços1>p#preço1{
+            margin-left: 6%;
+        }
+        #preços1>p#preço2{
+            margin-left: 37%;
+        }
+        #preços1>p#preço3{
+            margin-left: 68%;
+        }
+        #preços2>p{
+            position: absolute;
+            width: 30%;
+            margin-top: 210%;
+            font-family: 'Pacifico', cursive;
+            color: khaki;
+            font-size: 5vw;
+        }
+        #preços2>p#preço1{
+            margin-left: 6%;
+        }
+        #preços2>p#preço2{
+            margin-left: 37%;
+        }
+        #preços2>p#preço3{
+            margin-left: 68%;
+        }
+        #preços3>p{
+            position: absolute;
+            width: 30%;
+            margin-top: 250%;
+            font-family: 'Pacifico', cursive;
+            color: khaki;
+            font-size: 5vw;
+        }
+        #preços3>p#preço1{
+            margin-left: 6%;
+        }
+        #preços3>p#preço2{
+            margin-left: 37%;
+        }
+        #preços3>p#preço3{
+            margin-left: 68%;
+        }
+
+
+        #corações>img{
+            position: absolute;
+            width: 20%;
+            margin-top: 150%;
+        }
+        #corações>img#c1{
+            margin-left: 9%;
+        }
+        #corações>img#c2{
+            margin-left: 39%;
+        }
+        #corações>img#c3{
+            margin-left: 69%;
+        }
+        #corações1>img{
+            position: absolute;
+            width: 20%;
+            margin-top: 190%;
+        }
+        #corações1>img#c1{
+            margin-left: 9%;
+        }
+        #corações1>img#c2{
+            margin-left: 39%;
+        }
+        #corações1>img#c3{
+            margin-left: 69%;
+        }
+        #corações2>img{
+            position: absolute;
+            width: 20%;
+            margin-top: 230%;
+        }
+        #corações2>img#c1{
+            margin-left: 9%;
+        }
+        #corações2>img#c2{
+            margin-left: 39%;
+        }
+        #corações2>img#c3{
+            margin-left: 69%;
+        }
+
     </style>
 </head>
 <body>
     <div id="tudo">
        <div id="background">
             <img id="back1" src="imagens/Background principal.jpg" alt="fundo">
-           
        </div>
-       <div id="background2">
-             <img id="back2" src="imagens/Background secundario.jpg" alt="fundo">
-       </div>
-       <div id="background2">
-        <img id="back3" src="imagens/Background secundario.jpg" alt="fundo">
-       </div>
-       <div id="background2">
-        <img id="back4" src="imagens/Background secundario.jpg" alt="fundo">
-       </div>
+
        <div id="logo">
            <img src="imagens/logo branco.png" alt="logo">
-
        </div>
+
        <div>
            <img id="zapzap" src="imagens/whatsapp icone.png" alt="zap">
        </div>
+
        <div id="textos">
             <h1 id="titulo">Seja Bem Vindo</h1>
+            <h2 id="h2-1">Promoção</h2>
+            <h2 id="h2-2">Produtos disponíveis</h2>
+            <h3 id="h3-1">Obrigado por nos visitar</h3>
             <div id="preços">
                 <p id="preço1">
                     R$ 102,99
@@ -140,17 +297,86 @@
                     R$ 102,99
                 </p>
             </div>
+            <div id="preços1">
+                <p id="preço1">
+                    R$ 102,99
+                </p>
+                <p id="preço2">
+                    R$ 102,99
+                </p>
+                <p id="preço3">
+                    R$ 102,99
+                </p>
+            </div>
+            <div id="preços2">
+                <p id="preço1">
+                    R$ 102,99
+                </p>
+                <p id="preço2">
+                    R$ 102,99
+                </p>
+                <p id="preço3">
+                    R$ 102,99
+                </p>
+            </div>
+            <div id="preços3">
+                <p id="preço1">
+                    R$ 102,99
+                </p>
+                <p id="preço2">
+                    R$ 102,99
+                </p>
+                <p id="preço3">
+                    R$ 102,99
+                </p>
+            </div>
         </div>
+
         <div id="corações-promoção">
             <img id="c1" src="imagens/coração.png" alt="">
             <img id="c2" src="imagens/coração.png" alt="">
             <img id="c3" src="imagens/coração.png" alt="">
         </div>
+
+        
+
+        <div id="corações">
+            <img id="c1" src="imagens/coração.png" alt="">
+            <img id="c2" src="imagens/coração.png" alt="">
+            <img id="c3" src="imagens/coração.png" alt="">
+        </div>
+        <div id="corações1">
+            <img id="c1" src="imagens/coração.png" alt="">
+            <img id="c2" src="imagens/coração.png" alt="">
+            <img id="c3" src="imagens/coração.png" alt="">
+        </div>
+        <div id="corações2">
+            <img id="c1" src="imagens/coração.png" alt="">
+            <img id="c2" src="imagens/coração.png" alt="">
+            <img id="c3" src="imagens/coração.png" alt="">
+        </div>
+        
         <div id="fraldas">
             <img id="fralda1" src="imagens/fralda.png" alt="">
             <img id="fralda2" src="imagens/fralda.png" alt="">
             <img id="fralda3" src="imagens/fralda.png" alt="">
         </div>
+        <div id="fraldas1">
+            <img id="fralda1" src="imagens/fralda.png" alt="">
+            <img id="fralda2" src="imagens/fralda.png" alt="">
+            <img id="fralda3" src="imagens/fralda.png" alt="">
+        </div>
+        <div id="fraldas2">
+            <img id="fralda1" src="imagens/fralda.png" alt="">
+            <img id="fralda2" src="imagens/fralda.png" alt="">
+            <img id="fralda3" src="imagens/fralda.png" alt="">
+        </div>
+        <div id="fraldas3">
+            <img id="fralda1" src="imagens/fralda.png" alt="">
+            <img id="fralda2" src="imagens/fralda.png" alt="">
+            <img id="fralda3" src="imagens/fralda.png" alt="">
+        </div>
+
     </div>
 </body>
 </html>
