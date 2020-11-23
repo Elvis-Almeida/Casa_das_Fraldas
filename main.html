@@ -9,46 +9,53 @@
         @charset "UTF-8";
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
      
-        div#topo{
+        body{
+           
+        }
+        #background>img#back1{
             position: absolute;
+            left: 0px;
             top: 0px;
+            width: 100%;
+        }
+        #background2>img#back2{
+            position: absolute;
             left: 0px;
             width: 100%;
-            height: 60px;
-            background-color: aqua;
-            text-align: center;
-        }
-        div#topo>h1{
-            font-family: 'Pacifico', cursive;
-            color: rgb(0, 174, 255);
-            margin-top: 0px;
-        }
-        div#img-topo>img{
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            width: 60px;
+            margin-top: 54%;
             
         }
-        div#corpo{
-            margin-top: 100px;
+        #background2>img#back3{
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            margin-top: 108%;
+            
         }
-        div#corpo>h2{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        #logo>img{
+            position: absolute;
+            left: 34%;
+            width: 30%;
         }
     </style>
 </head>
 <body>
     <div id="tudo">
-        <div id="topo">
-            <h1>Casa das fraldas</h1>
-            <div id="img-topo"><img src="imagens/Logo branco.jpeg" alt="logo"></div>
-        </div>
-        <div id="corpo">
-            <h2>
-                Promoções
-            </h2>
-        </div>
+       <div id="background">
+            <img id="back1" src="imagens/Background principal.jpg" alt="fundo">
+           
+       </div>
+       <div id="background2">
+             <img id="back2" src="imagens/Background secundario.jpg" alt="fundo">
+       </div>
+       <div id="background2">
+        <img id="back3" src="imagens/Background secundario.jpg" alt="fundo">
+       </div>
+       <div id="logo">
+           <img src="imagens/logo branco.png" alt="logo">
+
+       </div>
+        
     </div>
 </body>
 </html>
