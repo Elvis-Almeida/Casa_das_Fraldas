@@ -5,6 +5,10 @@ body{
     background-image: url(imagens/Background\ secundario.jpg);
     background-size: 100%;
 }
+a{
+    width: 60px;
+    z-index: 1;
+}
 #h2-1{
     position: absolute;
     text-align: center;
@@ -31,7 +35,7 @@ body{
     position: absolute;
     text-align: center;
     font-family: 'Pacifico', cursive;
-    color: rgb(251, 255, 199);
+    color: azure;
     margin-left: 10%;
     margin-top: 265%;
     font-size: 8vw;
