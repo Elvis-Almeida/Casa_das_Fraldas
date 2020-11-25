@@ -75,6 +75,8 @@ a{
     display: none;
     
 }
+
+
 #background>img#back1{
     position: absolute;
     left: 0px;
@@ -186,6 +188,7 @@ a{
     font-family: 'Pacifico', cursive;
     color: khaki;
     font-size: 5vw;
+    
 }
 #preços1>p#preço1{
     margin-left: 6%;
