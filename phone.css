@@ -27,7 +27,7 @@ div#onda-do-começo>img{/*Para posicionar a onda corretamente*/
 div#onda-do-final>img{/*Para posicionar a onda corretamente*/
     position: absolute;
     top: 74vh;
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 div#logo-inicio{/*Para posicionar a logo corretamente*/
