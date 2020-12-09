@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:wght@500&display=swap');
 /**/
 body{
     background-image: url(imagens/fundo\ tijolo.jpg);
@@ -20,8 +20,7 @@ p#inicio{
 div#barra-superior{
     position: relative;
     padding: 30px;
-    background-color: white;
-    box-shadow: 10px 10px 10px black;
+    background-color: #FF8740;
 }
 div#caixa-logo{
     position: absolute;
@@ -38,7 +37,7 @@ div#caixa-logo>img{
 div#nome-empresa{
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 60vw;
     left: 70px;
     top: 0px;
     background-color:#FF8740;
@@ -151,15 +150,14 @@ div#botão-do-inicio>button:focus{ /*Para tirar a borda do botão depois que cli
     outline: 0px auto;
     outline-offset: 0px;
 }
-
 h1#principal{
-    position: absolute;
+    position: relative;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     text-align: center;
     background-color:
     #FF8740;
-    top:125vh;
+    top:375px;
     border-radius: 0px 20px;
     box-shadow:5px 5px  #CC3E14;
     left: 50%;
@@ -167,8 +165,8 @@ h1#principal{
     width: 90%;
 }
 div#caixa-promoções{
-    position: absolute;
-    top: 149vh;
+    position: relative;
+    top: 420px;
     width: 100%;
     height: 205px;
     background-image: url(imagens/anuncio\ largo.jpg);
@@ -177,18 +175,86 @@ div#caixa-promoções{
     box-shadow: 5px 5px 0px rgb(2, 115, 153);
     border-radius: 10px;
 }
-h1#secundario{
-    position: absolute;
-    top: 400vh;
+h1#titulo1{
+    position: relative;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     text-align: center;
     background-color:
     #FF8740;
+    top:459px;
     border-radius: 0px 20px;
     box-shadow:5px 5px  #CC3E14;
     left: 50%;
     transform: translate(-50%);
     width: 90%;
-    padding: 0px 0%;
+}
+div#roupas{
+    position: relative;
+    top: 500px;
+    width: 100%;
+    height: 205px;
+    background-color: darkcyan;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 0px rgb(2, 115, 153);
+}
+h1#titulo2{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    background-color:
+    #FF8740;
+    top:539px;
+    border-radius: 0px 20px;
+    box-shadow:5px 5px  #CC3E14;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+}
+div#fraldas{
+    position: relative;
+    top: 570px;
+    width: 100%;
+    height: 205px;
+    background-color: darkcyan;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 0px rgb(2, 115, 153);
+}
+div#onda-final-pagina{
+    position: relative;
+    top: 1150px;
+    height: 200px;
+    width: 100%;
+}
+div#onda-final-pagina>img{
+    position: relative;
+    top: 0px;
+    height: 200px;
+    width: 100%;
+}
+div#fundo-final-pagina{
+    position: relative;
+    top: 1150px;
+    height: 250px;
+    width: 100%;
+    background-color: #00B9FF;
+}
+p#titulo-final1{
+    position: relative;
+    top: 0px;
+    color: white;
+    text-align: left;
+    margin: 0% 10%;
+    font-family: 'Fredoka One', cursive;
+}
+p#titulo-final2{
+    position: relative;
+    top: 20px;
+    color: white;
+    text-align: left;
+    margin: 0% 10%;
+    font-family: 'Fredoka One', cursive;
 }
