@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 /**/
 body{
-    background-color: rgb(239, 247, 255);
+    background-image: url(imagens/fundo\ tijolo.jpg);
     margin: 0px;
 }
 div#imagem-bebe{
@@ -25,8 +25,9 @@ div#onda-do-começo>img{/*Para posicionar a onda corretamente*/
     width: 100%;
 }
 div#onda-do-final>img{/*Para posicionar a onda corretamente*/
-    position: relative;
-    top: 18vh;
+    position: absolute;
+    top: 74vh;
+    height: 200px;
     width: 100%;
 }
 div#logo-inicio{/*Para posicionar a logo corretamente*/
@@ -63,9 +64,24 @@ div#botão-do-inicio>button:focus{ /*Para tirar a borda do botão depois que cli
     outline: 0px auto;
     outline-offset: 0px;
 }
+
+h1#principal{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    background-color:
+    #FF8740;
+    top:114vh;
+    border-radius: 0px 20px;
+    box-shadow:5px 5px  #CC3E14;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+}
 div#caixa-promoções{
     position: absolute;
-    top: 150vh;
+    top: 140vh;
     width: 100%;
     height: 205px;
     background-image: url(imagens/anuncio\ largo.jpg);
@@ -73,4 +89,19 @@ div#caixa-promoções{
     background-size: cover;
     box-shadow: 5px 5px 0px rgb(2, 115, 153);
     border-radius: 10px;
+}
+h1#secundario{
+    position: absolute;
+    top: 400vh;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    background-color:
+    #FF8740;
+    border-radius: 0px 20px;
+    box-shadow:5px 5px  #CC3E14;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    padding: 40px 0%;
 }
