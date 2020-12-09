@@ -49,3 +49,14 @@ div#botão-do-inicio>button:focus{ /*Para tirar a borda do botão depois que cli
     outline: 0px auto;
     outline-offset: 0px;
 }
+div#caixa-promoções{
+    position: absolute;
+    top: 37vh;
+    width: 100%;
+    height: 205px;
+}
+div#caixa-promoções>img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
