@@ -27,7 +27,7 @@ div#onda-do-começo>img{/*Para posicionar a onda corretamente*/
 div#onda-do-final>img{/*Para posicionar a onda corretamente*/
     position: absolute;
     top: 74vh;
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 div#logo-inicio{/*Para posicionar a logo corretamente*/
@@ -72,7 +72,7 @@ h1#principal{
     text-align: center;
     background-color:
     #FF8740;
-    top:114vh;
+    top:125vh;
     border-radius: 0px 20px;
     box-shadow:5px 5px  #CC3E14;
     left: 50%;
@@ -81,7 +81,7 @@ h1#principal{
 }
 div#caixa-promoções{
     position: absolute;
-    top: 140vh;
+    top: 149vh;
     width: 100%;
     height: 205px;
     background-image: url(imagens/anuncio\ largo.jpg);
@@ -103,5 +103,5 @@ h1#secundario{
     left: 50%;
     transform: translate(-50%);
     width: 90%;
-    padding: 40px 0%;
+    padding: 10px 0%;
 }
