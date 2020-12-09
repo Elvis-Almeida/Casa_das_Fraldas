@@ -54,9 +54,7 @@ div#caixa-promoções{
     top: 37vh;
     width: 100%;
     height: 205px;
-}
-div#caixa-promoções>img{
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
+    background-image: url(imagens/anuncio\ largo.jpg);
+    background-position: center;
+    background-size: cover;
 }
