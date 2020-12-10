@@ -13,7 +13,7 @@ p#inicio{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     left: 20px;
-    top: 32vh;
+    top: 9em;
     width: 80%;
     text-shadow: 1px 1px 0px rgb(180, 175, 155);
 }
@@ -47,7 +47,7 @@ div#nome-empresa>p{
     color: blanchedalmond;
     font-family: 'Ubuntu', sans-serif;
     top: 0px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 900;
     text-align: left;
     margin: 20px 0px;
@@ -88,20 +88,20 @@ div#imagem-bebe{
 }
 div#fundo-do-começo{/*Para posicionar o fundo azul corretamente*/
     position: absolute;
-    top: 68vh;
+    top: 27em;
     height: 30vh;
     width: 100%;
     background-color: #00B9FF;
 }
 div#onda-do-começo>img{/*Para posicionar a onda corretamente*/
     position: relative;
-    top: 75vh;
+    top: 33em;
     height: 200px;
     width: 100%;
 }
 div#onda-do-final>img{/*Para posicionar a onda corretamente*/
     position: absolute;
-    top: 45vh;
+    top: 19em;
     height: 200px;
     width: 100%;
 }
@@ -113,7 +113,7 @@ div#logo-inicio{/*Para posicionar a logo corretamente*/
 }
 div#botão-do-inicio{/*Para posicionar o botão corretamente*/
     position: absolute;
-    top: 88vh;
+    top: 36em;
     left: 50%;
     transform: translate(-50%);
 }
@@ -155,7 +155,7 @@ h1#principal{
 }
 div#caixa-promoções{
     position: relative;
-    top: 480px;
+    top: 490px;
     width: 100%;
     height: 205px;
     background-image: url(imagens/anuncio\ largo.jpg);
