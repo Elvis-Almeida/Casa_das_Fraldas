@@ -167,6 +167,11 @@ div#botão-do-inicio>button:focus{ /*Para tirar a borda do botão depois que cli
     outline: 0px auto;
     outline-offset: 0px;
 }
+div#abelha>img{
+    position: absolute;
+    width: 7em;
+    right: 20px;
+}
 h1#principal{
     position: relative;
     font-family: 'Ubuntu', sans-serif;
@@ -273,4 +278,10 @@ p#titulo-final2{
     text-align: left;
     margin: 0% 10%;
     font-family: 'Fredoka One', cursive;
+}
+div#girafa>img{
+    position: absolute;
+    top: 148em;
+    width: 200px;
+    right: 0px;
 }
