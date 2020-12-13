@@ -12,7 +12,7 @@
     (function () {
         var options = {
             whatsapp: "+55 63984093584", // WhatsApp number
-            call_to_action: "", // Call to action
+            call_to_action: "WhatsApp", // Call to action
             position: "right", // Position may be 'right' or 'left'
         };
         var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
@@ -46,7 +46,7 @@
             <div id="nome-empresa">
                 <p>Conforto para quem voçê ama</p>
             </div>
-            <div id="barra-de-navegação">
+            <div id="barra-de-navegação-on" onclick="menu_on()">
                 <div id="barra1" class="barra">
                 </div>
                 <div id="barra2" class="barra">
@@ -54,10 +54,41 @@
                 <div id="barra3" class="barra">
                 </div>
             </div>
+            
+            <div id="barra-de-navegação-off" onclick="menu_off()">
+                <div id="barra1" class="barra">
+                </div>
+                <div id="barra2" class="barra">
+                </div>
+                <div id="barra3" class="barra">
+                </div>
+            </div>  
         </div>
         
         <div id="imagem-bebe">
             
+        </div>
+        <div id="menu">
+            <div>
+                <p>
+                    Não tem função pra colocar aqui
+                </p>
+            </div>
+            <div>
+                <p>
+                    tá só de enfeite christian
+                </p>
+            </div>
+            <div>
+                <p>
+                    mas ta prestando kkk
+                </p>
+            </div>
+            <div>
+                <p>
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                </p>
+            </div>        
         </div>
         <div id="fundo-do-começo">
         </div>
@@ -88,7 +119,8 @@
         <h1 id="principal">
             Veja o que está em Pomoção
         </h1>
-        <div id="caixa-promoções" >
+        <div id="caixa-promoções">
+            
         </div>
         <h1 id="titulo1">
             Roupas

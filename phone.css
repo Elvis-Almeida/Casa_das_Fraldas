@@ -5,6 +5,9 @@
 body{
     background-image: url(imagens/fundo\ tijolo.jpg);
     margin: 0px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 590;
 }
 p#inicio{
     position: relative;
@@ -47,12 +50,21 @@ div#nome-empresa>p{
     color: blanchedalmond;
     font-family: 'Ubuntu', sans-serif;
     top: 0px;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 900;
     text-align: left;
     margin: 20px 0px;
 }
-div#barra-de-navegação{
+div#barra-de-navegação-on{
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    right: 0px;
+    top: 0px;
+    background-color:#FF8740;
+}
+div#barra-de-navegação-off{
+    display: none;
     position: absolute;
     height: 100%;
     width: 60px;
@@ -78,18 +90,34 @@ div#barra3{
     top: 38px;
     
 }
+div#menu{
+    position: absolute;
+    background-color: #FF8740;
+    height: 15em;
+    width: 100%;
+    display: none;
+    top: 3.6em;
+}
+div#menu>div{
+    position: relative;
+    border-color: #fb9d66;
+    padding: 0.3em;
+    width: 90%;
+    left: 0.8em;
+    
+}
 div#imagem-bebe{
     background-image: url(imagens/Mãe\ com\ bebe.jpg);
     position: absolute;
     background-repeat: no-repeat;
     background-position: top;
-    height: 70vh;
+    height: 40em;
     width: 100%;
 }
 div#fundo-do-começo{/*Para posicionar o fundo azul corretamente*/
     position: absolute;
     top: 27em;
-    height: 30vh;
+    height: 10em;
     width: 100%;
     background-color: #00B9FF;
 }
@@ -158,7 +186,6 @@ div#caixa-promoções{
     top: 490px;
     width: 100%;
     height: 205px;
-    background-image: url(imagens/anuncio\ largo.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: 5px 5px 0px rgb(2, 115, 153);
