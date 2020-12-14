@@ -99,16 +99,22 @@ div#menu{
     display: none;
     top: 3.6em;
 }
-div#menu>div{
+div#menu>a>div{
     position: relative;
     border-color: #fb9d66;
     padding: 0.3em;
     width: 90%;
-    left: 0.8em;
+    left: 1em;
     
 }
-div#menu>div>p{
+div#menu>a>div>p{
+    position: relative;
     text-shadow: 2px 2px 0px #ff6d18;
+
+}
+div#menu>a{
+    text-decoration: none;
+    color: white;
 }
 div#imagem-bebe{
     background-image: url(imagens/Mãe\ com\ bebe.jpg);
@@ -143,33 +149,40 @@ div#logo-inicio{/*Para posicionar a logo corretamente*/
     left: 50%;
     transform: translate(-50%);
 }
+button.botão{
+    height: 50px;
+    width: 50vw;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 2px 5px 0px hsl(276, 100%, 43%);
+    background-color: #af38ff;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+button.botão:focus{
+    outline: thin dotted;
+    outline: 0px auto;
+    outline-offset: 0px;
+}
+button.botão:active{
+    background-color:#c97afd;
+}
 div#botão-do-inicio{/*Para posicionar o botão corretamente*/
     position: absolute;
     top: 36em;
     left: 50%;
     transform: translate(-50%);
 }
-div#botão-do-inicio>button{/*Para deixar o botão bonito*/
-    height: 50px;
-    width: 50vw;
-    border: none;
-    border-radius: 100px;
+div#botão-do-inicio>button{
+    background-color:  #FF8740;
     box-shadow: 2px 5px 0px #c76831;
-    background-color: #FF8740;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    font-size: 1.5em;
 }
 div#botão-do-inicio>button>p{/*Para tirar a margem do paragrafo do botão*/
     margin: 0px;
 }
 div#botão-do-inicio>button:hover{/*Para mudar a cor quando passa o mouse por cima*/
     background-color: none;
-}
-div#botão-do-inicio>button:focus{ /*Para tirar a borda do botão depois que clica*/
-    outline: thin dotted;
-    outline: 0px auto;
-    outline-offset: 0px;
 }
 div#abelha>img{
     position: absolute;
@@ -184,11 +197,12 @@ h1#principal{
     background-color:
     #FF8740;
     top:450px;
-    border-radius: 0px 20px;
+    border-radius: 20px 0px 20px 20px;
     box-shadow:5px 5px  #CC3E14;
     left: 50%;
     transform: translate(-50%);
     width: 90%;
+    text-shadow: 3px 3px 5px #CC3E14;
 }
 div#caixa-promoções{
     position: relative;
@@ -200,19 +214,23 @@ div#caixa-promoções{
     box-shadow: 5px 5px 0px rgb(2, 115, 153);
     border-radius: 10px;
 }
-h1#titulo1{
-    position: relative;
+h1.titulo{
     font-family: 'Ubuntu', sans-serif;
     color: white;
     text-align: center;
     background-color:
     #FF8740;
-    top:559px;
-    border-radius: 0px 20px;
+    border-radius: 20px 0px 20px 20px;
     box-shadow:5px 5px  #CC3E14;
     left: 50%;
     transform: translate(-50%);
     width: 90%;
+    text-shadow: 3px 3px 5px #CC3E14;
+    height: 1.3em;
+}
+h1#titulo1{
+    position: relative;
+    top:559px;
 }
 div#roupas{
     position: relative;
@@ -224,26 +242,29 @@ div#roupas{
     background-size: cover;
     box-shadow: 5px 5px 0px rgb(2, 115, 153);
 }
-h1#titulo2{
-    position: relative;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-align: center;
-    background-color:
-    #FF8740;
-    top:670px;
-    border-radius: 0px 20px;
-    box-shadow:5px 5px  #CC3E14;
+button#botão-roupas{
+    position: absolute;
+    top: 65em;
     left: 50%;
     transform: translate(-50%);
-    width: 90%;
+}
+h1#titulo2{
+    position: relative;
+    top:23em;
+}
+button#botão-fraldas{
+    position: absolute;
+    top: 84em;
+    left: 50%;
+    transform: translate(-50%);
 }
 div#fraldas{
     position: relative;
-    top: 710px;
+    top: 48em;
     width: 100%;
     height: 205px;
     background-color: darkcyan;
+    background-image: url(imagens/banner\ Fralda.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: 5px 5px 0px rgb(2, 115, 153);
@@ -256,14 +277,14 @@ div#onda-final-pagina{
 }
 div#onda-final-pagina>img{
     position: relative;
-    top: 0px;
+    top: 1px;
     height: 200px;
     width: 100%;
 }
 div#fundo-final-pagina{
     position: relative;
     top: 1150px;
-    height: 250px;
+    height: 15em;
     width: 100%;
     background-color: #00B9FF;
 }
