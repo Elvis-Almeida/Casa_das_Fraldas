@@ -9,6 +9,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 590;
 }
+a{
+    text-decoration: none;
+    color: #1d2cff;
+}
+a:focus{
+    text-decoration: none;
+    color: #1d2cff;
+}
 p#inicio{
     position: relative;
     font-size: 1.4em;
@@ -16,7 +24,7 @@ p#inicio{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     left: 20px;
-    top: 9em;
+    top: 10.3em;
     width: 80%;
     margin: 0px;
     text-shadow: 1px 1px 0px rgb(180, 175, 155);
@@ -184,11 +192,6 @@ div#botão-do-inicio>button>p{/*Para tirar a margem do paragrafo do botão*/
 div#botão-do-inicio>button:hover{/*Para mudar a cor quando passa o mouse por cima*/
     background-color: none;
 }
-div#abelha>img{
-    position: absolute;
-    width: 7em;
-    right: 20px;
-}
 h1#principal{
     position: relative;
     font-family: 'Ubuntu', sans-serif;
@@ -290,7 +293,7 @@ div#fundo-final-pagina{
 }
 p#titulo-final1{
     position: relative;
-    top: 0px;
+    top: 20px;
     color: white;
     text-align: left;
     margin: 0% 10%;
@@ -298,7 +301,7 @@ p#titulo-final1{
 }
 p#titulo-final2{
     position: relative;
-    top: 20px;
+    top: 40px;
     color: white;
     text-align: left;
     margin: 0% 10%;
