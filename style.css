@@ -101,6 +101,10 @@ main>div>div#caixa6{
 main>div>div#caixa7{
     
 }
+main>div>div#mapa>iframe{
+    width: 100%;
+    height: 50vw;
+}
 footer>img{
     position: relative;
     top: -10em;
