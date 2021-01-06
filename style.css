@@ -50,7 +50,8 @@ header>div>img#bebê{
     position: absolute;
     top: 9em;
     right: 0em;
-    width: 10em;
+    width: 40vw;
+    max-width: 178px;
 }
 a{
     font-family: 'Fredoka One', cursive;
@@ -74,7 +75,7 @@ main>div>a>div{
     width: 100%;
     height: 50vw;
     max-height: 278px;
-    background-image: url(resources/anuncio\ largo.jpg);
+    background-color: rgb(155, 155, 155);
     background-size: cover;
     background-position: center center;
 }
@@ -110,7 +111,7 @@ main>div>div#mapa>iframe{
     height: 50vw;
     max-height: 278px;
 }
-footer>img{
+footer>img#onda{
     position: relative;
     top: -10em;
     width: 100%;
