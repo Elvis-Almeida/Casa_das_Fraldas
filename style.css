@@ -52,6 +52,9 @@ header>div>img#bebê{
     right: 0em;
     width: 10em;
 }
+a{
+    color: rgb(46, 46, 46);
+}
 main>div.conteudo{
     position: relative;
     left: 50%;
@@ -64,7 +67,7 @@ main>div.conteudo{
     margin-top: 15vw;
     background-color: rgba(205, 92, 92, 0);
 }
-main>div>div{
+main>div>a>div{
     position: relative;
     top: 20px;
     width: 100%;
@@ -80,25 +83,25 @@ main>div>p.veja-mais{
     right: 0px;
     text-decoration: underline;
 }
-main>div>div#caixa1{
+main>div>a>div#caixa1{
     background-image: url(resources/anuncio\ largo.jpg);
 }
-main>div>div#caixa2{
+main>div>a>div#caixa2{
     background-image: url(resources/background\ roupas.jpeg);
 }
-main>div>div#caixa3{
+main>div>a>div#caixa3{
     background-image: url(resources/background\ fraldas.jpeg);
 }
-main>div>div#caixa4{
+main>div>a>div#caixa4{
     
 }
-main>div>div#caixa5{
+main>div>a>div#caixa5{
     
 }
-main>div>div#caixa6{
+main>div>a>div#caixa6{
     
 }
-main>div>div#caixa7{
+main>div>a>div#caixa7{
     
 }
 main>div>div#mapa>iframe{
