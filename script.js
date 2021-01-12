@@ -2,9 +2,9 @@ var imageCount = 0;
 var currentImage = 0;
 var images = new Array();
  
-images[0] = 'https://instagram.fimp3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/133759301_717652082202768_6159155171597462635_n.jpg?_nc_ht=instagram.fimp3-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=WyKzu6qVBPgAX9WM9UN&tp=1&oh=ab9ae6d95ce8e9edeea7c899315ef853&oe=6020C420';
-images[1] = 'https://instagram.fimp3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/133793652_1096258977501978_8274958481878641174_n.jpg?_nc_ht=instagram.fimp3-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=asM1rGs-gacAX9WR2cm&tp=1&oh=47b845abea6a5cd0ad1def542986a2dc&oe=6020CA2C';
-images[2] = 'https://instagram.fimp3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/129681556_110331390930727_4728268849443652001_n.jpg?_nc_ht=instagram.fimp3-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=ue__3bi6npAAX8Z1rP2&tp=1&oh=88e4db38dc8eda0812df364ef80ca1f0&oe=6001CE0D';
+images[0] = 'https://instagram.fimp3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/136841793_188561719665044_922577770088227648_n.jpg?_nc_ht=instagram.fimp3-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=krkKp0iSqekAX-9IOJD&tp=1&oh=bd19dd9b1b67886d914e3407dbb6a4fa&oe=6026E441';
+images[1] = 'https://instagram.fimp3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/133759301_717652082202768_6159155171597462635_n.jpg?_nc_ht=instagram.fimp3-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=WyKzu6qVBPgAX9WM9UN&tp=1&oh=ab9ae6d95ce8e9edeea7c899315ef853&oe=6020C420';
+images[2] = 'https://instagram.fimp3-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/134280846_1159121144506949_1696741643638147536_n.jpg?_nc_ht=instagram.fimp3-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=YFb37119PiwAX-jYbaF&tp=1&oh=0cdde3833ea4eb82b2cfb6bb66d44131&oe=602707BF';
  
 var preLoadImages = new Array();
 for (var i = 0; i < images.length; i++)
