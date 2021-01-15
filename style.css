@@ -53,6 +53,22 @@ header>div>img#bebê{
     width: 40vw;
     max-width: 178px;
 }
+header>div>div#menu{
+    position: absolute;
+    background-color: rgb(195, 195, 195);
+    height: 500px;
+    width: 70%;
+    top: 90px;
+    right: 7vw;
+    border-radius: 20px;
+    z-index: 1;
+    max-width: 387px;
+}
+header>div>div#menu>p{
+    position: relative;
+    margin-top: 38px;
+    left: 30px;
+}
 a{
     font-family: 'Fredoka One', cursive;
     color: rgb(46, 46, 46);
@@ -106,6 +122,9 @@ main>div>a>div#caixa6{
 }
 main>div>a>div#caixa7{
     
+}
+main>div>a>div#caixa8{
+    background-image: url(resources/produto\ de\ limpeza.jpg);
 }
 main>div>div#mapa>iframe{
     width: 100%;
