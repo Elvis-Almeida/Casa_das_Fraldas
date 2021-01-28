@@ -118,13 +118,10 @@ main>div>a>div#caixa5{
     
 }
 main>div>a>div#caixa6{
-    
+    background-image: url(resources/produto\ de\ limpeza.jpg);
 }
 main>div>a>div#caixa7{
     
-}
-main>div>a>div#caixa8{
-    background-image: url(resources/produto\ de\ limpeza.jpg);
 }
 main>div>div#mapa>iframe{
     width: 100%;
