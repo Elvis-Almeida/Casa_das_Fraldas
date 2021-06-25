@@ -49,7 +49,7 @@ header>div>img#barra-vertical{
 header>div>img#bebê{
     position: absolute;
     top: 9em;
-    right: 0em;
+    right: -1em;
     width: 40vw;
     max-width: 178px;
 }
@@ -103,7 +103,7 @@ main>div>p.veja-mais{
     text-decoration: underline;
 }
 main>div>a>div#caixa1{
-    background-image: url(resources/anuncio\ largo.jpg);
+    background-image: url(resources/produto\ 2\ teste.png);
 }
 main>div>a>div#caixa2{
     background-image: url(resources/background\ roupas.jpeg);
@@ -112,15 +112,17 @@ main>div>a>div#caixa3{
     background-image: url(resources/background\ fraldas.jpeg);
 }
 main>div>a>div#caixa4{
-    
+
+    background-image: url(resources/produto\ 3\ teste.webp);
 }
 main>div>a>div#caixa5{
-    
+    background-image: url(resources/produto\ 4\ teste.jpg);
 }
 main>div>a>div#caixa6{
     background-image: url(resources/produto\ de\ limpeza.jpg);
 }
 main>div>a>div#caixa7{
+    background-image: url(resources/produto\ 1\ teste.jpg);
     
 }
 main>div>div#mapa>iframe{
