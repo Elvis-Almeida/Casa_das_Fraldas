@@ -79,18 +79,18 @@ main>div.conteudo{
     transform: translate(-50%);
     width: 90vw;
     height: 60vw;
-    max-width: 500px;
-    max-height: 333px;
+    max-width: 800px;
+    max-height: 533px;
     top: 4em;
-    margin-top: 15vw;
+    margin-top: min(15vmin, 80px);
     background-color: rgba(205, 92, 92, 0);
 }
 main>div>a>div{
     position: relative;
     top: 20px;
     width: 100%;
-    height: 50vw;
-    max-height: 278px;
+    height: 85%;
+    /* max-height: 278px; */
     background-color: rgb(155, 155, 155);
     background-size: cover;
     text-align: center;
@@ -103,26 +103,26 @@ main>div>p.veja-mais{
     text-decoration: underline;
 }
 main>div>a>div#caixa1{
-    background-image: url(resources/produto\ 2\ teste.png);
+    background-image: url(../resources/produto\ 2\ teste.png);
 }
 main>div>a>div#caixa2{
-    background-image: url(resources/background\ roupas.jpeg);
+    background-image: url(../resources/background\ roupas.jpeg);
 }
 main>div>a>div#caixa3{
-    background-image: url(resources/background\ fraldas.jpeg);
+    background-image: url(../resources/background\ fraldas.jpeg);
 }
 main>div>a>div#caixa4{
 
-    background-image: url(resources/produto\ 3\ teste.webp);
+    background-image: url(../resources/produto\ 3\ teste.webp);
 }
 main>div>a>div#caixa5{
-    background-image: url(resources/produto\ 4\ teste.jpg);
+    background-image: url(../resources/produto\ 4\ teste.jpg);
 }
 main>div>a>div#caixa6{
-    background-image: url(resources/produto\ de\ limpeza.jpg);
+    background-image: url(../resources/produto\ de\ limpeza.jpg);
 }
 main>div>a>div#caixa7{
-    background-image: url(resources/produto\ 1\ teste.jpg);
+    background-image: url(../resources/produto\ 1\ teste.jpg);
     
 }
 main>div>div#mapa>iframe{
